@@ -7,10 +7,9 @@ function snapCrackle(maxValue) {
       str += `SnapCrackle, `;
     } else if (i % 2 !== 0) {
       str += `Snap, `;
+    } else if (i % 5 == 0) {
+      str += `Crackle, `;
     } else {
-      if (i % 5 == 0) {
-        str += `Crackle, `;
-      }
       if (i !== maxValue) {
         str += `${i}, `;
       } else {
