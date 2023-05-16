@@ -1,14 +1,81 @@
 # Entrega: SnapCrackle #
 
+## Sobre o Projeto
 
-- Escreva uma função chamada __snapCrackle__ que leva um parâmetro: __maxValue__.
-- Esta função deve fazer um loop de 1 até __maxValue__ (inclusive) e montar uma __string__ com as seguintes condições para cada número:
-    1. Se o número for ímpar, no lugar dele, concatenar __"Snap"__ no final da string.
-    2. Se o número for múltiplo de 5, no lugar dele, concatenar __"Crackle"__ no final da string.
-    3. Se o número for tanto ímpar quanto múltiplo de 5, no lugar dele, concatenar __"SnapCrackle"__ no final da string.
-    4. Se número não for nem ímpar nem múltiplo de 5, concatenar o próprio número no final da string.
-    5. Seus itens devem ser separados sempre por __vírgula e espaço__ (veja o exemplo).
-    6. Esta função deve __retornar__ a __string__ obtida.
+Este projeto consiste na implementação da função snapCracklePrime em JavaScript, como parte de uma série de katas desenvolvidos durante o módulo 1 na Kenzie Academy Brasil.
+
+A função snapCracklePrime recebe um valor máximo como parâmetro e retorna uma sequência de números e palavras conforme as seguintes regras:
+
+Se um número for ímpar e divisível por 5, ele é substituído por "SnapCrackle".
+Se um número for ímpar, ele é substituído por "Snap".
+Se um número for divisível por 5, ele é substituído por "Crackle".
+Os demais números são mantidos.
+
+## Recursos Utilizados
+
+- HTML: Linguagem de marcação utilizada para estruturar o conteúdo do projeto.
+- JavaScript: Linguagem de programação utilizada para a implementação da lógica do projeto.
+- console.log: Ferramenta para o desenvolvedor debugar o código.
+
+
+## Como utilizar o projeto
+
+1. Faça o download ou clone o repositório do projeto.
+2. Abra o arquivo `index.html` em um navegador web.
+3. As funções ja estão sendo chamadas, e para visualizar o resultado devera abrir o inspecionar do navegador e ir para a aba console.
+
+## Considerações Finais
+
+Este projeto foi desenvolvido como parte do aprendizado na Kenzie Academy Brasil; Caso tenha alguma dúvida ou sugestão, não hesite em entrar em contato.
+
+Agradeço por utilizar o meu projeto "Katas de JavaScript 1" em JavaScript. Espero que seja útil e contribua para o seu aprendizado!
+
+## Contato
+
+Você pode me encontrar no [LinkedIn](https://www.linkedin.com/in/lucasbatista-dev/).
+
+
+---
+
+
+
+# Tarefa - Sobre o que é cada Kata!
+
+1.  oneThroughTwenty - Retornar os números de 1 a 20. (1, 2, 3,...,
+    19, 20)
+2.  evensToTwenty - Retornar os números pares de 1 a 20. (2, 4, 6,...,
+    18, 20)
+3.  oddsToTwenty - Retornar os números ímpares de 1 a 20. (1, 3, 5,...,
+    17, 19)
+4.  multiplesOfFive - Retornar os múltiplos de 5 até 100. (5, 10,
+    15,..., 95, 100)
+5.  squareNumbers - Retornar todos os números até 100 que forem
+    quadrados perfeitos. (1, 4, 9, ..., 81, 100)
+6.  countingBackwards - Retornar os números contando de trás para frente
+    de 20 até 1. (20, 19, 18, ..., 2, 1)
+7.  evenNumbersBackwards - Retornar os números pares de 20 até 1. (20,
+    18, 16, ..., 4, 2)
+8.  oddNumbersBackwards - Retornar os números ímpares de 20 até 1. (19,
+    17, 15, ..., 3, 1)
+9.  multiplesOfFiveBackwards - Retornar os múltiplos de 5 contando de
+    trás para frente a partir de 100. (100, 95, 90, ..., 10, 5)
+10. squareNumbersBackwards - Retornar os quadrados perfeitos contando de
+    trás para frente a partir de 100. (100, 81, 64, ..., 4, 1)
+
+::: {.section .hilightedContet .hilightedContet--tip}
+**Dica!**
+
+Para relembrar:
+
+- O que é um número primo? [Acesse este
+  link](https://pt.wikipedia.org/wiki/N%C3%BAmero_primo)
+- Quando é um quadrado Perfeito? [Acesse este
+  link](https://pt.wikipedia.org/wiki/N%C3%BAmero_quadrado)
+  :::
+
+
+
+string__ obtida.
 
 ## Exemplo
 
